@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('Contact-Background.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-blur: 10px; /* Add blur effect to the background */
+}
+
+.contact-form {
+    width: 50%;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.7); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    /* margin-bottom: 0; */
+}
+
+.logo img {
+    max-width: 75px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: -1100px;
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.logo h1 {
+    display: inline;
+    float: right;
+     animation: fadeIn 9s; 
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+/* .social-icons {
+    display: flex;
+}
+
+.social-icons{
+    font-size: 20px;
+    color: red;
+    margin-right: 10px;
+    text-decoration: none;
+} */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.social-icons a:hover,
+nav ul a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.main-content {
+    padding: 20px;
+}
+

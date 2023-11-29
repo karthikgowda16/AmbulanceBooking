@@ -1,0 +1,22 @@
+.services {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.services h2 {
+    text-align: center;
+    color: #333;
+}
+
+.service {
+    margin-top: 20px;
+}
+
+.service h3 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}

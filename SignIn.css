@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Signin.jpg') center/cover; /* Replace with your background image */
+}
+
+.container {
+    text-align: center;
+}
+
+.transparent-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.transparent-form h2 {
+    color: #333;
+}
+
+.transparent-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.transparent-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.transparent-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.transparent-form button:hover {
+    background-color: #555;
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    /* margin-bottom: 0; */
+}
+
+.logo img {
+    max-width: 75px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: -1100px;
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.logo h1 {
+    display: inline;
+    float: right;
+     animation: fadeIn 9s; 
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+/* .social-icons {
+    display: flex;
+}
+
+.social-icons{
+    font-size: 20px;
+    color: red;
+    margin-right: 10px;
+    text-decoration: none;
+} */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.social-icons a:hover,
+nav ul a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.main-content {
+    padding: 20px;
+}

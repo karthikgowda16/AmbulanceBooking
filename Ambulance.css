@@ -1,0 +1,225 @@
+h1{                    /*To give margin and colour to heading*/
+    /* float: center; */
+    margin-left: 580px;
+    color: aqua;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.ambulance-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 45%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.text-container h2 {
+    color: #333;
+}
+
+.text-container p {
+    color: #666;
+}
+
+.text-container a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.text-container button{ /*Properties for button*/
+    margin-top: 10px;
+    padding: 2.5px;
+    background-color: red;
+    color:rgb(0, 0, 0);
+
+}
+
+.text-container button:hover{
+    background-color: green;
+    color:white;
+}
+
+
+
+
+
+/* Add this at the end of your existing CSS file */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    /* margin-bottom: 0; */
+}
+
+.logo img {
+    max-width: 75px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: -1100px;
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.logo h1 {
+    display: inline;
+    float: right;
+     animation: fadeIn 9s; 
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+/* .social-icons {
+    display: flex;
+}
+
+.social-icons{
+    font-size: 20px;
+    color: red;
+    margin-right: 10px;
+    text-decoration: none;
+} */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.social-icons a:hover,
+nav ul a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+
+
+/* =======================CSS FOOTER============================================================= */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-column h4 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.subscribe-box {
+    text-align: center;
+}
+
+.subscribe-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-box input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 80%;
+}
+
+.subscribe-box button {
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.COPYRIGHT{
+    margin-top: 189px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
